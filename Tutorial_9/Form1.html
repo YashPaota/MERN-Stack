@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name :</label>
+        <input type="text" placeholder="Enter Name" id="name" name="name">
+
+        <br><br>
+
+        <label for="email">Email : </label>
+        <input type="email" placeholder="Enter Email" id="email" name="email">
+
+        <br><br>
+        
+        <label for="phone">Phone No : </label>
+        <input type="tel" name="phone" id="phone" placeholder="Enter Phone No">
+
+        <br><br>
+
+        <label for="occupation">Occupation : </label>
+        <select name="occupation" id="occupation">
+          <option value="student">Student</option>
+          <option value="professional">Professional</option>
+          <option value="others">Others</option>
+        </select>
+
+        <br><br>
+
+        <fieldset>
+            <legend>Topic Of Interest</legend>
+
+            <label for="checkbox1">HTML</label>
+            <input type="checkbox" id="checkbox1" name="checkbox1">
+
+            <label for="checkbox2">CSS</label>
+            <input type="checkbox" id="checkbox2" name="checkbox1">
+
+            <label for="checkbox3">JavaScript</label>
+            <input type="checkbox" id="checkbox3 name="checkbox1">
+
+            <br><br>
+        </fieldset>
+
+        <label for="textarea">Comments : </label>
+        <br>
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="Register">
+    </form>
+    
+</body>
+</html>

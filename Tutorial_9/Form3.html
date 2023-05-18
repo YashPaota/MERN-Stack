@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form In HTML</title>
+</head>
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Name : </label>
+            <input type="text" id="name" name="name" placeholder="Enter Name :">
+            <br><br>
+
+            <label for="email">Email : </label>
+            <input type="email" id="email" name="email" placeholder="Enter Email">
+            <br><br>
+
+            <label for="phone">Phone No : </label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter Phone No ">
+            <br><br>
+
+            <label for="date">Date : </label>
+            <input type="date" id="date" name="date" >
+            <br><br>
+
+            <label for="">Gender : </label>
+            <label for="male">Male </label>
+            <input type="radio" id="male" name="gender">
+            <label for="female">Female </label>
+            <input type="radio" id="female" name="gender">
+
+            <br><br>
+
+            <label for="country">Country </label>
+            <select name="country" id="country">
+                <option value="india">India</option>
+                <option value="srilanka">Sri Lanka</option>
+                <option value="rusaia">Russia</option>
+                <option value="usa">USA</option>
+                <option value="europe">Europe</option>
+                <option value="australia">Australia</option>
+            </select>
+
+            <br><br>
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>Address Details </legend>
+                <label for="street">Address Street : </label>
+                <input type="text" id="street" name="street" placeholder="Enter Street ">
+                <br><br>
+                <label for="city">City : </label>
+                <input type="text" id="city" name="city" placeholder="Enter Your City ">
+                <br><br>
+
+                <label for="state">State : </label>
+                <input type="text" id="state" name="state" placeholder="Enter Your State ">
+                <br><br>
+
+                <label for="code">PinCode : </label>
+                <input type="text" id="code" name="code" placeholder="Enter Pincode">
+
+            
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Other Informations </legend>
+            <label for="textarea">Additional Comments </label>
+            <br>
+            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+
+            <br><br>
+            <input type="checkbox" id="checkbox" name="checkbox">
+            <label for="checkbox">I Agree To The Terms Of Services </label>
+            
+
+            <br><br>
+
+        </fieldset>
+        
+        <button>Submit</button>
+    </form>
+    
+</body>
+</html>
